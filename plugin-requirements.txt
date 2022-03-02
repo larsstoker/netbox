@@ -1,3 +1,6 @@
 # SAML2 plugin
 netbox-plugin-auth-saml2
 django3-auth-saml2
+
+# Topology View plugin
+netbox-topology-views==1.0.0a1

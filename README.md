@@ -24,6 +24,11 @@ cp ./proxy.conf ./nginx/
 ### Modify the Netbox configuration file
 Edit the `Configuration.py` to enable and configure the plugins.
 
+```Python
+PLUGINS = ['django3_saml2_nbplugin', 'netbox_topology_views']
+```
+
+
 #### SAML2 Authentication
 Please refer to [this page](https://github.com/jeremyschulman/netbox-plugin-auth-saml2#netbox-configuration) for more information.
 

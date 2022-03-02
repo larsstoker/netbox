@@ -2,6 +2,7 @@
 
 ## Included plugins
 - [netbox-plugin-auth-saml2](https://github.com/jeremyschulman/netbox-plugin-auth-saml2) by [Jeremy Schulman's](https://github.com/jeremyschulman)
+- [netbox-topology-views](https://github.com/mattieserver/netbox-topology-views) by [Mattieserver](https://github.com/mattieserver)
 
 ## How to use
 

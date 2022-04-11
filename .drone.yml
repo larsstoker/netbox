@@ -12,4 +12,5 @@ steps:
       password:
         from_secret: docker_password
       repo: larsstoker/netbox
+      dockerfile: ./Dockerfile
       tags: latest

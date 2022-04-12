@@ -8,9 +8,9 @@ steps:
     settings:
       debug: true
       username:
-        from_secret: docker_username
+        from_secret: docker_usr
       password:
-        from_secret: docker_password
+        from_secret: docker_pwd
       repo: larsstoker/netbox
       dockerfile: ./Dockerfile
       tags: latest

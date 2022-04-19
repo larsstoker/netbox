@@ -53,7 +53,7 @@ services:
       SUPERUSER_NAME: admin
       SUPERUSER_PASSWORD: admin
       WEBHOOKS_ENABLED: 'true'
-      SKIP_COLLECT_STATIC: 'false
+      SKIP_COLLECT_STATIC: 'false'
     user: 'unit:root'
     volumes:
     - ./netbox/startup_scripts:/opt/netbox/startup_scripts:z,ro

@@ -1,5 +1,6 @@
 netbox/
 nginx/
 configs/
+test/
 
 docker-compose.yml

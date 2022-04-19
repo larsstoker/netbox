@@ -7,3 +7,4 @@ RUN apk --no-cache add xmlsec \
     -r plugin-requirements.txt
 
 COPY docker-entrypoint.sh /opt/netbox/docker-entrypoint.sh
+RUN ["chmod", "+x", "/opt/netbox/docker-entrypoint.sh"]

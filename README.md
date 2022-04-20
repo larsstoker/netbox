@@ -2,6 +2,7 @@
 
 ## Included plugins
 - [netbox-plugin-auth-saml2](https://github.com/jeremyschulman/netbox-plugin-auth-saml2) by [Jeremy Schulman's](https://github.com/jeremyschulman)
+- [nextbox-ui-plugin](https://github.com/iDebugAll/nextbox-ui-plugin) by [Igor Korotchenkov](https://github.com/iDebugAll/)
 
 ## How to use
 
@@ -23,8 +24,15 @@ cp ./proxy.conf ./nginx/
 ### Modify the Netbox configuration file
 Edit the `Configuration.py` to enable and configure the plugins.
 
+```Python
+PLUGINS = ['django3_saml2_nbplugin', 'nextbox-ui-plugin']
+```
+
 #### SAML2 Authentication
 Please refer to [this page](https://github.com/jeremyschulman/netbox-plugin-auth-saml2#netbox-configuration) for more information.
+
+#### Topology Plugin
+Please refer to [this page](https://github.com/iDebugAll/nextbox-ui-plugin#enable-the-plugin) for more information.
 
 ## Rename the example docker-compose file and run
 ```Bash

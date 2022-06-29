@@ -1,4 +1,4 @@
-FROM netboxcommunity/netbox:v3.2.1
+FROM netboxcommunity/netbox:v3.2
 
 COPY plugin-requirements.txt plugin-requirements.txt
 

@@ -13,4 +13,4 @@ steps:
         from_secret: docker_pwd
       repo: larsstoker/netbox
       dockerfile: ./Dockerfile
-      tags: ["latest", "v3.2.1"]
+      tags: ["latest", "v3.2"]
